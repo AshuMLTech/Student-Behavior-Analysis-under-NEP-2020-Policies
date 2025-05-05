@@ -5,6 +5,7 @@ from mlxtend.frequent_patterns import apriori, association_rules
 data = pd.read_csv('Student-Behavior-Analysis-NEP2020\data\processed\BA_Student (modify).xlsx')
 
 # Step 2: Apply the Apriori algorithm to find frequent itemsets
+#cheez
 # Set min_support according to your analysis needs
 min_support = 0.1  # Example: change as necessary
 frequent_itemsets = apriori(data, min_support=min_support, use_colnames=True)
